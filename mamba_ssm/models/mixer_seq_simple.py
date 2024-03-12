@@ -130,7 +130,7 @@ class MixerModel(nn.Module):
             ]
         )
 
-        self.norm_f = (nn.LayerNorm if not rms_norm else RMSNorm)(
+        self.norm_f = nn.LayerNorm(
             d_model, eps=norm_epsilon, **factory_kwargs
         )
 
