@@ -17,7 +17,7 @@ with an efficient hardware-aware design and implementation in the spirit of [Fla
 - The core Mamba package:
     - `git clone https://github.com/Zyphra/mamba.git`
     - `cd mamba`
-    - `pip install -e .`
+    - You need to install from source: `pip install .` or `pip install -e .` for editable mode.
 
 If `pip` complains about PyTorch versions, try passing `--no-build-isolation` to `pip`.
 
