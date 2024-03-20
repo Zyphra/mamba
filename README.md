@@ -14,7 +14,10 @@ with an efficient hardware-aware design and implementation in the spirit of [Fla
 ## Installation
 
 - [Option] `pip install causal-conv1d==1.2.0.post2`: an efficient implementation of a simple causal Conv1d layer used inside the Mamba block.
-- `pip install .`: the core Mamba package.
+- The core Mamba package:
+    - `git clone https://github.com/Zyphra/mamba.git`
+    - `cd mamba`
+    - `pip install -e .`
 
 If `pip` complains about PyTorch versions, try passing `--no-build-isolation` to `pip`.
 
